@@ -225,6 +225,4 @@ if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] in ["--demo", "--run-tests"]:
         run_test_scenarios()
     else:
-        run_test_scenarios()
-        print("\nStarting interactive CLI mode...\n")
         interactive_cli()

@@ -14,8 +14,6 @@ The AI Technical Interview Simulator is an adaptive technical interview platform
 - **LangChain Core:** `langchain-core==1.6.5`
 - **LangChain Community:** `langchain-community==0.4.2`
 - **LangChain Groq Integration:** `langchain-groq==1.1.3`
-- **LangChain OpenAI Integration:** `langchain-openai==1.6.6`
-- **LangChain Google Gemini Integration:** `langchain-google-genai==2.0.0`
 - **Pydantic:** `pydantic==2.13.5`
 - **Environment Management:** `python-dotenv==1.2.3`
 
@@ -27,7 +25,7 @@ The AI Technical Interview Simulator is an adaptive technical interview platform
 3. **Multi-Stage Workflows**: Sequential execution linking question generation → answer evaluation → scoring → difficulty adjustment → follow-up probing → report generation.
 4. **Conversational Memory & Context**: Isolated session context tracking messages (`HumanMessage`, `AIMessage`), asked questions, covered topics, and missing concept pools.
 5. **Dynamic Prompt Parameterization**: Feeding dynamic session state (history, topics covered, difficulty, recent scores) into prompt templates.
-6. **Graceful Error Handling & Fallbacks**: Dual execution pipeline supporting cloud LLM provider chains (`ChatGroq`, `ChatOpenAI`, `ChatGoogleGenerativeAI`) with a dynamic offline simulation engine when no API keys are present.
+6. **Graceful Error Handling & Fallbacks**: Dual execution pipeline supporting cloud LLM provider chains (`ChatGroq`) with a dynamic offline simulation engine when no API keys are present.
 
 ---
 
@@ -163,12 +161,6 @@ Assignment8_AI_Interview_Simulator_Kingsly/
    Add one of the supported provider keys:
    ```env
    GROQ_API_KEY=your_groq_api_key_here
-   # OR
-   OPENAI_API_KEY=your_openai_api_key_here
-   # OR
-   GOOGLE_API_KEY=your_google_api_key_here
-   ```
-
 ---
 
 ## How to Run the Application

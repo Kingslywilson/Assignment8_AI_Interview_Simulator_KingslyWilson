@@ -1,0 +1,103 @@
+{
+  "domain": "Python",
+  "difficulty": "Medium",
+  "experience_level": "1–3 Years",
+  "total_questions_asked": 3,
+  "topics_covered": [
+    "Python Fundamentals",
+    "OOP"
+  ],
+  "technical_score": 45.4,
+  "communication_score": 63.3,
+  "topic_performances": [
+    {
+      "topic": "Python Fundamentals",
+      "questions_asked": 1,
+      "average_score": 4.31,
+      "percentage": 43.1
+    },
+    {
+      "topic": "OOP",
+      "questions_asked": 2,
+      "average_score": 5.47,
+      "percentage": 54.7
+    }
+  ],
+  "strengths": [
+    "inheritance",
+    "composition",
+    "coupling"
+  ],
+  "areas_for_improvement": [
+    "mutability",
+    "lists vs tuples",
+    "memory reference",
+    "hashability",
+    "coupling",
+    "reusability",
+    "implementation detail"
+  ],
+  "improvement_suggestions": [
+    "Review and practice concepts related to: mutability",
+    "Review and practice concepts related to: lists vs tuples",
+    "Review and practice concepts related to: memory reference",
+    "Review and practice concepts related to: hashability",
+    "Review and practice concepts related to: coupling"
+  ],
+  "interview_outcome": "Needs Further Preparation",
+  "recommendation_reason": "Candidate struggled with key domain concepts (45.4/100), requiring further preparation.",
+  "question_evaluations": [
+    {
+      "question_id": "Q001",
+      "topic": "Python Fundamentals",
+      "difficulty": "Medium",
+      "question": "What is the difference between mutable and immutable data types in Python? Give examples.",
+      "candidate_answer": "The primary difference between mutable and immutable data types in Python is whether or not you can change the internal state or content of an object after it has been created in memory",
+      "technical_score": 3.58,
+      "clarity_score": 6.0,
+      "overall_score": 4.31,
+      "strengths": [],
+      "missing_concepts": [
+        "mutability",
+        "lists vs tuples",
+        "memory reference",
+        "hashability"
+      ]
+    },
+    {
+      "question_id": "Q002",
+      "topic": "OOP",
+      "difficulty": "Easy",
+      "question": "Explain inheritance and composition in Python. When would you prefer composition?",
+      "candidate_answer": "Inheritance and composition are two fundamental object-oriented programming (OOP) techniques used in Python to reuse code and establish relationships between classes",
+      "technical_score": 6.47,
+      "clarity_score": 7.0,
+      "overall_score": 6.63,
+      "strengths": [
+        "inheritance",
+        "composition"
+      ],
+      "missing_concepts": [
+        "coupling",
+        "reusability"
+      ]
+    },
+    {
+      "question_id": "Q003_FU",
+      "topic": "OOP",
+      "difficulty": "Easy",
+      "question": "Building directly on your previous response about Explain inheritance and composition in Python. When would you prefer composition: can you elaborate specifically on how coupling works and what trade-offs it involves?",
+      "candidate_answer": "In object-oriented programming, coupling refers to the degree of direct dependency between two classes. When you choose composition over inheritance, you are intentionally choosing loose coupling over tight coupling to make your code more flexible and easier to maintain.",
+      "technical_score": 3.58,
+      "clarity_score": 6.0,
+      "overall_score": 4.31,
+      "strengths": [
+        "coupling"
+      ],
+      "missing_concepts": [
+        "implementation detail",
+        "trade-offs"
+      ]
+    }
+  ]
+}
